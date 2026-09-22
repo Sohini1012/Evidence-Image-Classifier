@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Dataset (too large for git)
+data/raw/
+*.zip
+*.crdownload
+
+# Model weights (large files)
+*.pt
+*.onnx
+
+# YOLOv8 runs
+runs/
